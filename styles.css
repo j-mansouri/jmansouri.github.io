@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #efefef;
+  color: #333;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  line-height: 1.6;
+}
+
+
+nav {
+  background-color: rgb(54, 7, 7);
+}
+
+.nav-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+  font-size: 20px;
+}
+
+nav a {
+  color: #f5e6d3;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+}
+
+section {
+  margin: 3rem 0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  scroll-margin-top: 1rem;
+}
+
+.landing {
+  text-align: center;
+}
+
+.landing h1 {
+  font-size: 3rem;
+  color: rgb(54, 7, 7);
+}
+
+.facts {
+  font-style: italic;
+}
+
+img {
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.landing img,
+.gravity-falls img {
+  width: 50%;
+}
+
+
+h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgb(54, 7, 7);
+  margin: 0 0 1rem;
+}
+
+
+.gravity-falls {
+  background-color: rgba(31, 18, 3, 0.132);
+}
+
+.works-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.section-4-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.section-4-items figure {
+  flex: 1 1 220px;
+  max-width: 260px;
+  margin: 0;
+  text-align: center;
+}
+
+.section-4-items img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+figcaption {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background-color: rgb(54, 7, 7);
+  text-align: center;
+  padding: 1rem;
+}
+
+footer h4 {
+  margin: 0.5rem 0;
+}
+
+footer a {
+  color: #f5e6d3;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
